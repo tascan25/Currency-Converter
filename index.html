@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/285df39516.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Currency Converter</h2>
+            <span>This will help in Converting Currencies in any format</span>
+        </header>
+        <main>
+            <form action="">
+                <div class="form">
+                    <div class="money">
+                        <span>Enter Money</span>
+                        <input value=1 type="number">
+                    </div>
+                    <div class="choose-currency">
+                        <span>Choose Currency</span>
+                        <div class="select">
+                            <div class="from">
+                                <span>from:</span>
+                                <div class="select-options">
+                                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                                    <select name="from" id="id">
+            
+                                    </select>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            <div class="to">
+                                <span>To:</span>
+                                <div class="select-options">
+                                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                                    <select name="to" id="to">
+                                
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <span>1 USD = 83 INR</span>
+                        </div>
+                        <div class="convert">
+                            <button class="button-83" role="button">Convert</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
